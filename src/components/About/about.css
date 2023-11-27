@@ -1,0 +1,45 @@
+#AboutSection ,#EducationSection{
+    font-family: 'Poppins', sans-serif;
+    margin: 5rem auto;
+    width: 70%;
+}
+.AboutText{
+    margin-top: 1rem;
+}
+
+.text-gray{
+    color: gray;
+}
+.cv-btn{
+    padding: 0.5rem 2rem;
+    color: white;
+    border-radius: 2rem;
+    background: #7480bb;
+    cursor: pointer;
+}
+
+.btnText{
+    margin-right: 2rem;
+}
+
+.button{
+    display: flex;
+    justify-content: center ;
+    margin-top: 2rem;
+}
+    
+
+
+@media (max-width:850px){
+    .button{
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    .btnText{
+        width: 15rem;
+    }
+    .cv-btn{
+        margin-top: 1rem;
+    }
+
+}

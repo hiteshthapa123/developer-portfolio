@@ -1,0 +1,52 @@
+#ProjectSection{
+    font-family: 'Poppins', sans-serif;
+    margin: 4rem auto;
+    width: 70%;
+}
+
+.project{
+    border: 2px solid #808080;
+    margin: 2rem;
+    width: 100%;
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+}
+
+.first-img{
+    object-fit: cover;
+    height: 9rem;
+    border-radius: 1rem;
+}
+
+.second-img{
+    object-fit: cover;
+    height: 9rem;
+    width: 16rem;
+    border-radius: 1rem;
+}
+.third-img{
+    object-fit: cover;
+    height: 9rem;
+    border-radius: 1rem;
+}
+
+@media (max-width:850px){
+    .project{
+        margin: 2rem 0;
+        width: 100%;
+    }
+    .first-img{
+        object-fit: cover;
+        height: 6rem;
+    }
+    
+    .second-img{
+        object-fit: cover;
+        height: 6rem;
+        width: 10rem
+    }
+    .third-img{
+        object-fit: cover;
+        height: 6rem;
+    }
+}

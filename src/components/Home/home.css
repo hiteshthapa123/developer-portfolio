@@ -1,0 +1,87 @@
+#HomeSection {
+    height: calc(100vh - 4rem);
+    /* width: 100vw; */
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.bg {
+    object-fit: cover;
+    height: 25rem;
+}
+
+.leftSection {
+    font-size: 1.4rem;
+}
+
+.Name {
+    color: yellow;
+    font-size: 2rem;
+}
+
+.introText {
+    width: 20rem;
+}
+
+.btn {
+    padding: 0.5rem 2rem;
+    color: white;
+    border-radius: 2rem;
+    background: #7480bb;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+hr {
+    border: 0;
+    background-color: #9c97f1;
+    height: 1.2px;
+    margin: 20px 84px;
+}
+
+@media (max-width:850px) {
+
+    #HomeSection {
+        justify-content: center;
+        gap: 20px;
+        height: 100%;
+        padding-top: 30px;
+        flex-direction: column-reverse;
+    }
+
+    hr {
+        margin: 20px;
+    }
+
+    .leftSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        font-size: 1.5rem;
+    }
+
+    .Name {
+        font-size: 1.7rem;
+    }
+
+    .leftSection {
+        font-size: 1.2rem;
+    }
+
+    .bg {
+        object-fit: cover;
+        height: 15rem;
+    }
+
+    .introText {
+        width: 17rem;
+    }
+
+}

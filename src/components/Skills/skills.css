@@ -1,0 +1,43 @@
+#skillSection{
+    font-family: 'Poppins', sans-serif;
+    margin: 5rem auto;
+    width: 70%;
+}
+
+.box{
+    border: 2px solid rgb(153, 140, 140);
+    display: flex;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.imgs{
+    object-fit: cover;
+    height: 9rem;
+    
+}
+
+.Text{
+    width: 50%;
+    margin-left: 5rem;
+   
+}
+
+@media (max-width:850px) {
+    .box{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Text{
+        margin: 2rem 0;
+       
+    }
+    .imgs{
+        object-fit: cover;
+        height: 5rem;
+        
+    }
+}
+
+
