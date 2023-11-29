@@ -34,6 +34,7 @@
     .project{
         margin: 2rem 0;
         width: 100%;
+        text-align: center;
     }
     .first-img{
         object-fit: cover;
