@@ -36,19 +36,19 @@ const Navbar = () => {
         </div>
       ) : (
         <div className="mobilemenu">
-          <Link to="/" className="menuListItem">
+          <Link to="/" onClick={() => setMenu(!menu)} className="menuListItem">
             Home
           </Link>
-          <Link to="/about" className="menuListItem">
+          <Link to="/about" onClick={() => setMenu(!menu)} className="menuListItem">
             About us
           </Link>
-          <Link to="/skills" className="menuListItem">
+          <Link to="/skills" onClick={() => setMenu(!menu)} className="menuListItem">
             Skills
           </Link>
-          <Link to="/projects" className="menuListItem">
+          <Link to="/projects" onClick={() => setMenu(!menu)} className="menuListItem">
             Projects
           </Link>
-          <Link to="/contact" className="menuListItem">
+          <Link to="/contact" onClick={() => setMenu(!menu)} className="menuListItem">
             Contact Me
           </Link>
         </div>
