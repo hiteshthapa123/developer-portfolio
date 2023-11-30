@@ -1,10 +1,10 @@
-#ProjectSection{
+#ProjectSection {
     font-family: 'Poppins', sans-serif;
     margin: 4rem auto;
     width: 70%;
 }
 
-.project{
+.project {
     border: 2px solid #808080;
     margin: 2rem;
     width: 100%;
@@ -12,41 +12,55 @@
     border-radius: 1rem;
 }
 
-.first-img{
+.first-img {
     object-fit: cover;
     height: 9rem;
     border-radius: 1rem;
 }
 
-.second-img{
+.second-img {
     object-fit: cover;
     height: 9rem;
     width: 16rem;
     border-radius: 1rem;
 }
-.third-img{
+
+.third-img {
     object-fit: cover;
     height: 9rem;
     border-radius: 1rem;
 }
 
-@media (max-width:850px){
-    .project{
+.fourth-img {
+    object-fit: cover;
+    height: 9rem;
+    border-radius: 1rem;
+}
+
+@media (max-width:850px) {
+    .project {
         margin: 2rem 0;
         width: 100%;
         text-align: center;
     }
-    .first-img{
+
+    .first-img {
         object-fit: cover;
         height: 6rem;
     }
-    
-    .second-img{
+
+    .second-img {
         object-fit: cover;
         height: 6rem;
         width: 10rem
     }
-    .third-img{
+
+    .third-img {
+        object-fit: cover;
+        height: 6rem;
+    }
+
+    .fourth-img {
         object-fit: cover;
         height: 6rem;
     }

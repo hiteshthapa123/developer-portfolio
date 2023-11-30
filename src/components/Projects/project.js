@@ -2,7 +2,8 @@ import React from "react";
 import "./project.css";
 import first from "../../images/first.png";
 import second from "../../images/second.png";
-import third from "../../images/netflix.png";
+import third from "../../images/calculator.png";
+import fourth from '../../images/netflix.png';
 
 const project = () => {
   return (
@@ -35,6 +36,17 @@ const project = () => {
 
       <div className="project">
         <img className="third-img" src={third} alt="" />
+        <div className="Calculator">
+          <h3>Simple Calculator .</h3>
+        </div>
+        <div className="text-gray">
+          I have build Simple Calculator by using HTML , CSS & JAVA SCRIPT.
+          Click check button to see my Netflix project...
+        </div>
+        <button className="btn"><a href="https://create-my-calculator.netlify.app/">Check Project.</a></button>
+      </div>
+      <div className="project">
+        <img className="fourth-img" src={fourth} alt="" />
         <div className="netflix">
           <h3>Netflix Web Page .</h3>
         </div>
