@@ -1,11 +1,16 @@
-import React, { useState } from "react";
+import React, { useState , useEffect } from "react";
 import "./Navbar.css";
 import logo from "../../images/2logo.png";
-import { Link } from "react-router-dom";
+import { Link , useLocation } from "react-router-dom";
 import { BiMenu } from "react-icons/bi";
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
   return (
     <nav className="navbar">

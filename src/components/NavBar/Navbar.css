@@ -43,6 +43,13 @@
         align-items: center;
     }
 
+    .menuListItem {
+        color: white;
+        margin: 1rem;
+        cursor: pointer;
+        font-size: 2rem;
+    }
+
     .menuIcon{
         width: 70px;
         height: 40px;
@@ -50,6 +57,7 @@
 
     .desktopmenu {
         display: none;
+
     }
 
     .mobilemenu {
@@ -57,7 +65,9 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        height: 100vh;
     }
+
 
     .navbar {
         margin: 0 auto;
@@ -71,7 +81,7 @@
         justify-content: space-between;
     }
     .logo{
-        height: 3rem;
-        width: 11rem;
+        height: 5.5rem;
+        width: 14rem;
     }
 }
